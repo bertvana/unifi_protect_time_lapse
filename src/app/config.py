@@ -11,7 +11,7 @@ from pathlib import Path
 # UNIFI PROTECT API SETTINGS
 # =============================================================================
 
-UNIFI_PROTECT_API_KEY = os.getenv("UNIFI_PROTECT_API_KEY", "mwPEPuo5v0TZY9VRHnxWSTAI3OEtF")
+UNIFI_PROTECT_API_KEY = os.getenv("UNIFI_PROTECT_API_KEY", "")
 
 UNIFI_PROTECT_BASE_URL = os.getenv(
     "UNIFI_PROTECT_BASE_URL",
