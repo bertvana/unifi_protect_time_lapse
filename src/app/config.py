@@ -11,11 +11,11 @@ from pathlib import Path
 # UNIFI PROTECT API SETTINGS
 # =============================================================================
 
-UNIFI_PROTECT_API_KEY = os.getenv("UNIFI_PROTECT_API_KEY", "")
+UNIFI_PROTECT_API_KEY = os.getenv("UNIFI_PROTECT_API_KEY", "mwPEPuo5v0TZY9VRHnxWSTAI3OEtF")
 
 UNIFI_PROTECT_BASE_URL = os.getenv(
     "UNIFI_PROTECT_BASE_URL",
-    "https://unifi01.tylephony.com/proxy/protect/integration/v1",
+    "https://https://192.168.2.1/proxy/protect/integration/v1",
 )
 
 # SSL verification setting
