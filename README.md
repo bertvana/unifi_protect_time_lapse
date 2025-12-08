@@ -57,7 +57,7 @@ name: unifi_protect_time_lapse
 services:
   unifi_protect_time_lapse:
     container_name: unifi_protect_time_lapse
-    image: lux4rd0/unifi_protect_time_lapse:latest
+    image: bertvana/unifi_protect_time_lapse:latest
     restart: always
     volumes:
       - ./output:/app/unifi_protect_time_lapse/output:rw

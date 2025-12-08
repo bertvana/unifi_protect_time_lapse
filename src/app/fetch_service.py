@@ -222,6 +222,7 @@ class FetchService:
             # Calculate next execution time (maintain perfect timing from start)
             await self._sleep_until_next_execution(interval, elapsed_since_start)
 
+
     async def _run_summary(self):
         """Run periodic summary logging."""
         while self.running:
