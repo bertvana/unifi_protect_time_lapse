@@ -97,6 +97,9 @@ except json.JSONDecodeError as e:
 # Sort intervals
 FETCH_INTERVALS = sorted(FETCH_INTERVALS)
 
+FETCH_START_HOUR = os.getenv("TIMELAPSE_CREATION_TIME", "00:01")
+FETCH_END_HOUR = os.getenv("TIMELAPSE_CREATION_TIME", "23:59")
+
 # =============================================================================
 # PATH CONFIGURATIONS
 # =============================================================================
